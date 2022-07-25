@@ -1,0 +1,69 @@
+/* Lista de Modulos */
+
+.module-list {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10px;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.module {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  gap: 10px;
+  width: 100%;
+}
+
+.module-button {
+  display: flex;
+  background: rgb(44, 106, 221);
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 0px 15px 0 15px;
+  padding: 5px;
+  transition: 0.2s ease;
+}
+
+.module-button:hover {
+  background: rgb(240, 140, 65);
+  border-radius: 0px;
+}
+
+.module-button:focus {
+  background: rgb(240, 140, 65);
+  border-radius: 0px;
+  box-shadow: inset -5px -5px 3px 0px rgb(201, 42, 42);
+}
+
+.module-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link_pantallas {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  border-left: 2px solid black;
+  padding: 2px;
+  transition: 0.2s ease;
+  width: 100%;
+  font-weight: bold;
+}
+
+.link_pantallas:hover {
+  border-bottom: 3px solid rgb(201, 42, 42);
+  background: rgb(44, 106, 221);
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+/* Para detalles del item */
+.item_detail {
+  display: grid;
+  grid-template-columns: 40% 45% 15%;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background: rgb(212, 212, 210);
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.item_main_image,
+.item_information {
+  justify-self: center;
+  align-self: center;
+  /* width: 100%; */
+}
+.item_main_image {
+  border-radius: 15px;
+  width: 75%;
+  object-fit: cover;
+}
+
+.item_information {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.item_information span {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.item_information strong {
+  color: brown;
+}
+
+.item_actions {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+
+.item_actions--delete {
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+}
+
+.item-interaction--button--delete {
+  color: brown;
+}
+
+.item-interaction--button--delete:hover {
+  background-color: #003865;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+/* Para edicion y creación del item */
+
+.edit_item--container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.item_detail--edit {
+  grid-template-columns: 100%;
+  width: 90%;
+  margin: 0;
+}
+
+.item_detail--edit span {
+  display: grid;
+  grid-template-columns: 25% 73%;
+  gap: 3px;
+}
+
+.item_detail--edit p {
+  margin: 0;
+}
+
+.item_detail--edit label {
+  font-weight: bold;
+  color: brown;
+}

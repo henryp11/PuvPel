@@ -1,0 +1,50 @@
+.modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(223, 220, 220, 0.9);
+  position: relative;
+  padding: 30px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.modal_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  background: rgba(255, 81, 0, 0.6);
+  padding: 10px;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  transition: 0.2s ease;
+  border: none;
+  border-radius: 0 20px 0 0;
+}
+
+.modal_btn:hover {
+  border-radius: 20px;
+  background: rgba(255, 81, 0, 0.9);
+}

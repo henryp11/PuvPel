@@ -1,0 +1,86 @@
+{
+  "productos": [
+    {
+      "id": "item1",
+      "nombre": "Laptop Dell",
+      "descripcion": "Pantalla 14 pulgadas, 8GB Ram, Disco Duro 1TB",
+      "categoria": "Equipos Computación",
+      "cantidad": "100",
+      "precio": "1820",
+      "imagenPrincipal": "https://sistemasyprogramas.com/5264-medium_default/laptop-.jpg",
+      "otrasImagenes": ""
+    },
+    {
+      "id": "item3",
+      "nombre": "Laptop Toshiba Satellite R50",
+      "descripcion": "Pantalla 15 Pulg, 16GB RAM, 2TB de Disco Duro",
+      "categoria": "Equipos Computación",
+      "cantidad": "20",
+      "precio": "1500",
+      "imagenPrincipal": "https://www.yaesta.com/uploads/productos/prd-2401/Toshiba-Satellite-Pro-R50-C1.jpg?v14072022",
+      "otrasImagenes": ""
+    },
+    {
+      "nombre": "Redmi 10",
+      "descripcion": "&GB Ram, 128GB memoria Interna color Plateado",
+      "categoria": "Celulares",
+      "cantidad": "10",
+      "precio": "300",
+      "imagenPrincipal": "https://computron.com.ec/pub/media/catalog/product/cache/c76236561964e7fb03cdd328a54ff569/r/e/redmi10-gr128gb-1.jpg",
+      "otrasImagenes": "",
+      "id": "S3u-iQg"
+    },
+    {
+      "nombre": "Samsung Galaxy A32",
+      "descripcion": "Cobertura 5g 6GB Ram, memoria interna 128GB",
+      "categoria": "Celulares",
+      "cantidad": "10",
+      "precio": "550",
+      "imagenPrincipal": "https://www.lavictoria.ec/wp-content/uploads/2021/04/CELULAR-SAMSUNG-GALAXY-A32-SM-A325M-DS-2.jpg",
+      "otrasImagenes": [],
+      "id": "gziFOg7"
+    },
+    {
+      "nombre": "Teclado Gamer",
+      "descripcion": "Marca Havit",
+      "categoria": "Accesorios",
+      "cantidad": "20",
+      "precio": "20",
+      "imagenPrincipal": "https://http2.mlstatic.com/D_NQ_NP_983732-MEC49436298992_032022-O.jpg",
+      "otrasImagenes": [],
+      "id": "WDjzdBw"
+    },
+    {
+      "nombre": "Mouse Gamer",
+      "descripcion": "Marca Metion",
+      "categoria": "Accesorios",
+      "cantidad": "20",
+      "precio": "30",
+      "imagenPrincipal": "https://www.mediaprice.com.ec/wp-content/uploads/2022/02/MOUSE-GAMER-MEETION-MT-GM22.jpg",
+      "otrasImagenes": [],
+      "id": "WMNIWM6"
+    },
+    {
+      "nombre": "Disco Duro Estado Sólido SSD",
+      "descripcion": "240GB, marca Kingston, SATA",
+      "categoria": "Accesorios",
+      "cantidad": "20",
+      "precio": "75",
+      "imagenPrincipal": "https://www.electrocompuquito.com/wp-content/uploads/2021/08/SA400S37-240G.jpg",
+      "otrasImagenes": [],
+      "id": "ddBR3G3"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "user01",
+      "username": "admin",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
+    },
+    {
+      "id": "user02",
+      "username": "gestion",
+      "password": "827ccb0eea8a706c4c34a16891f84e7b"
+    }
+  ]
+}
